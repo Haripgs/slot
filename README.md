@@ -1,5 +1,5 @@
 # Ex03 Time Table
-
+## Date: 07.10.23
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -23,13 +23,106 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## CODE
-
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Slot Timetable</title>
+</head>
+<body align="center" bgcolor="cyan">
+    <img src="logo.png" width="50%" height="15%">
+    
+        <hr width="50%" size="5" color="black">
+        <font size="5"><b>SLOT TIME TABLE - hariharan</21222004003></font>
+        <hr width="50%" size="5" color="black">
+        <table border=5 width="50%" cellspacing="5" cellpadding="7" align="center" bgcolor="black">
+            <tr bgcolor="white">
+                <th>TIME/DAY</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+            </tr>
+            <tr bgcolor="gray" align="center">
+                <td>8-10</td>
+                <td>toc</td>
+                <td>JAVA</td>
+                <td>CN</td>
+                <td>FWAD</td>
+                <td>FREE</td>
+            </tr>
+            <tr bgcolor="white" align="center">
+                <td>10-12</td>
+                <td>cns</td>
+                <td>OS</td>
+                <td>CN</td>
+                <td>SNLT</td>
+                <td>FREE</td>
+            </tr>
+            <tr bgcolor="gray" align="center">
+                <td>12-01</td>
+                <td colspan="5">LUNCH</td>
+            </tr>
+            <tr bgcolor="white" align="center">
+                <td>01-03</td>
+                <td>FREE</td>
+                <td></td>
+                <td>TRAN</td>
+                <td>CN</td>
+                <td>TOC</td>
+            </tr>
+            <tr bgcolor="gray" align="center">
+                <td>03-05</td>
+                <td>TOC</td>
+                <td>FWAD</td>
+                <td>CN</td>
+                <td>FREE</td>
+                <td>OS</td>
+            </tr>
+        </table>
+        <hr width="50%" size="5" color="black">
+        <table border=3 width="50%" cellspacing="5" cellpadding="7" align="center">
+            <tr>
+                <td>S.NO</td>
+                <td>SUBJECT CODE</td>
+                <td>SUBJECT NAME</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>19CS513</td>
+                <td>INFORMATION RETRAIVAL</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>19CS406</td>
+                <td>Computer Networks</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>19CS407</td>
+                <td>Theory of Computation</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>19CS305</td>
+                <td>COMPUTER ARCHITECTURE</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>19EY703</td>
+                <td>System of Numerical and Logical Terminologiess</td>
+            </tr>
+        </table>
+</body>
+</html>
+```
 
 ## OUTPUT
 
+![image](out%20(1).png)
 
-## HTML VALIDATOR
-
+![image](out%20(2).png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
